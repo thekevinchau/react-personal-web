@@ -1,22 +1,18 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import websitepfp from '../assets/websitepfp.jpg'
-import {
-  faBookAtlas,
-  faCloud,
-  faEnvelope,
-  faGlobe,
-  faMapLocationDot,
-  faMinus,
-  faSchool,
-  faUserSecret,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSchool, faMinus, faEnvelope, faMapLocationDot, faBookAtlas, faGlobe, faCloud, faUserSecret } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import websitepfp from '/Users/Kevin Chau/Desktop/Personal_Web/react-personal-web/src/assets/websitepfp.jpg'
 
-export const AboutMe = () => {
-  return (
-    <div className="h-screen w-screen bg-white flex flex-col items-center justify-center font-mono">
+
+export const AboutMeCard = () => {
+    return <div>
       <div className="bg-white w-[600px] h-[400px] border border-black rounded-md flex">
         <div className=" w-1/2 h-full flex flex-col justify-center items-center">
-          <img className="border border-black h-[300px] w-[230px]" src={websitepfp}></img>
+          <div className="border border-black rounded-sm">
+            <img
+              className="h-[300px] w-[230px]"
+              src={websitepfp}
+            ></img>
+          </div>
           <p className="mt-2">hello from the lady and i!</p>
         </div>
         <div className="w-1/2 h-full flex flex-col items-start pl-6 justify-evenly">
@@ -60,13 +56,11 @@ export const AboutMe = () => {
                 Cloud Engineering
               </p>
               <p>
-                <FontAwesomeIcon icon={faUserSecret}/>
-                {" "}Cybersecurity
+                <FontAwesomeIcon icon={faUserSecret} /> Cybersecurity
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+}

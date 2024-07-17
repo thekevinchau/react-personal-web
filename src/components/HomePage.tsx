@@ -1,5 +1,7 @@
 import { ReactTyped } from "react-typed";
 import "../App.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 export const HomePage = (): JSX.Element => {
   return (
@@ -18,7 +20,7 @@ export const HomePage = (): JSX.Element => {
           showCursor={true}
         />
       </div>
-      <button className="mt-8 text-2xl border p-3 border-red-500 text-red-500">Get to Know Me!</button>
+      <button className="mt-10 text-2xl p-2 text-red-500"><p><FontAwesomeIcon icon={faArrowDown} bounce  size="2xl"/></p> </button>
     </div>
   );
 };
