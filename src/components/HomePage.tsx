@@ -1,13 +1,13 @@
 import { ReactTyped } from "react-typed";
-
+import "../App.css"
 
 export const HomePage = (): JSX.Element => {
   return (
     <div className="bg-black opacity-90 h-screen w-screen flex flex-col justify-center items-center text-white">
-      <h1 className="text-7xl font-mono">
+      <h1 className="text-7xl font-mono heading-1">
         Hello, I'm <span className="text-red-500">Kevin.</span>
       </h1>
-      <div className="text-7xl">
+      <div className="text-7xl heading-2">
         <span className="sticky">I'm a </span>
         <ReactTyped
           className="text-red-500"

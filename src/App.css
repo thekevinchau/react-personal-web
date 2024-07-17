@@ -1,3 +1,46 @@
 * {
-    margin: 0
+    margin: 0;
+    scroll-behavior: smooth
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(300px);
+    }
+    to {
+        tarnsform: translateX(0);
+    }
+}
+
+.heading-1 {
+    animation-name: slideInLeft;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: trasnlateX(-100px);
+}
+
+.heading-2 {
+    animation-name: slideInRight;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: trasnlateX(-100px);
 }
