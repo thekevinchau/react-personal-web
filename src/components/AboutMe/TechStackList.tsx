@@ -12,7 +12,7 @@ import react from "/Users/Kevin Chau/Desktop/Personal_Web/react-personal-web/src
 const renderingArray = [html,css,js,ts,express,nodejs, mdb, react, git ]
 
 export const TechStackList = () => {
-    return     <div className="flex justify-evenly w-screen h-full">
+    return     <div className="flex justify-evenly w-4/5 h-full mb-32">
     {renderingArray.map((image: string) => <TechStackItem img={image}/>)}
 </div>
 }

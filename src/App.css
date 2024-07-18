@@ -44,3 +44,13 @@
 
     transform: trasnlateX(-100px);
 }
+
+.AboutMeBg{
+    background-image: url('./assets/AboutMeWebsite.gif');
+    background-size: contain;
+}
+
+.MusicBg{
+    background-image: url('./assets/concertWebsite.gif');
+    background-size: contain;
+}

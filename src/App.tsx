@@ -1,15 +1,14 @@
 
 import { AboutMe } from "./components/AboutMe/AboutMe";
-import { HomePage } from "./components/HomePage";
 import { MusicSection } from "./components/Music/MusicSection";
-
+import './App.css'
+import { HomePage } from "./components/HomePage";
 
 const App = () => {
 
 
   return (
     <div>
-      <HomePage/>
       <AboutMe/>
       <MusicSection/>
     </div>
