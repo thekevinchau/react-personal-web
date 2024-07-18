@@ -2,10 +2,11 @@ import { ReactTyped } from "react-typed";
 import "../App.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { Navbar } from "./NavBar";
 
 export const HomePage = (): JSX.Element => {
   return (
-    <div className="bg-black opacity-90 h-screen w-screen flex flex-col justify-center items-center text-white">
+    <div className="bg-black opacity-95 h-screen w-screen flex flex-col justify-center items-center text-white">
       <h1 className="text-7xl font-mono heading-1">
         Hello, I'm <span className="text-red-500">Kevin.</span>
       </h1>
