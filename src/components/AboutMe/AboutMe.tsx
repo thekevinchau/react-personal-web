@@ -1,12 +1,12 @@
-import { Navbar } from "../NavBar";
+
 import { AboutMeCard } from "./AboutMeCard";
-import { TechStackItem } from "./TechStackItem";
 import { TechStackList } from "./TechStackList";
-import nodejs from "/Users/Kevin Chau/Desktop/Personal_Web/react-personal-web/src/assets/NodeJS.png"
+
+
 
 export const AboutMe = () => {
   return (
-    <div className="h-screen w-screen bg-black opacity-95 flex flex-col items-center justify-evenly font-mono">
+    <div className="h-full w-screen bg-black opacity-95 flex flex-col items-center justify-evenly font-mono">
       <div className="flex flex-col items-center">
         <h1 className="text-white text text-6xl mb-16">
           About Me
@@ -16,7 +16,7 @@ export const AboutMe = () => {
         </h1>
         <AboutMeCard />
       </div>
-      <div className="flex items-start text-white w-1/3 flex-col pl-3">
+      <div className="flex items-start text-white w-1/3 flex-col pl-3 mt-10 mb-10">
         <h1 className="text-red-500 font-bold">More about me...</h1>
         Hello! I'm Kevin Chau, a passionate student dedicated to lifelong
         learning and teaching others about my passions. With a solid background
@@ -27,7 +27,7 @@ export const AboutMe = () => {
         continuous growth and discovery in the ever-evolving world of
         technology!
       </div>
-      <div className="text-red-500">My tech stack:</div>
+      <div className="text-red-500 mb-10 font-bold text-xl">My tech stack:</div>
       <TechStackList/>
     </div>
   );

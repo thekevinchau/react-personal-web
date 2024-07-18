@@ -1,7 +1,7 @@
 
 import { AboutMe } from "./components/AboutMe/AboutMe";
 import { HomePage } from "./components/HomePage";
-import { Navbar } from "./components/NavBar";
+import { MusicSection } from "./components/Music/MusicSection";
 
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
     <div>
       <HomePage/>
       <AboutMe/>
+      <MusicSection/>
     </div>
   );
 };
