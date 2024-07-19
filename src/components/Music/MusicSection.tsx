@@ -30,7 +30,7 @@ export const MusicSection = () => {
   return (
     <div className="h-screen w-screen flex flex-col items-center justify-evenly font-mono bg-black opacity-95 MusicBg">
       <div className="flex flex-col items-center">
-        <p className="w-1/3 mb-10 bg-white text-black border-black border-2 pl-1 rounded-md">
+        <p className="w-1/3 mb-10 bg-white text-black border-black border-2 pl-2 rounded-md">
           Music is pretty much integrated into my daily life. Any task I do,
           whether it's playing video games, working out, programming, cleaning
           (literally everything) is done with music playing. I'd like to call
